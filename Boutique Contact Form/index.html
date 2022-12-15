@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ 	<title>Contact - PUDE's Boutique</title>
+
+ </head>
+ <body>
+
+   <div class="top-nav">
+   	<p>Get Your Christmas Orders on Time | Our Shop is Closed December 24th (15:00pm) </p>
+   </div>
+
+    <ul id="navbar">
+    <li id="nav-logo">
+ 
+      <a>PUDE's Boutique</a>
+    </li>
+
+    <li class="nav-menu"><a>All Stock</a></li>
+    <li class="nav-menu"><a>Gowns</a></li>
+    <li class="nav-menu"><a>Shoes</a></li>
+    <li class="nav-menu"><a>Underwears</a></li>
+    <li class="nav-menu"><a>Bags</a></li>
+
+     <a class="home-btn" href="#"><img src="user-icon.png"></a>
+    <span class="menu-btn" onclick="openNav()">&#9776;</span>
+  </ul>
+
+  <div class="sideNav" id="sidenav">
+    <a class="closeBtn" onclick="closeNav()">&#10006;</a>
+    <a>All Stock</a>
+    <a>Gowns</a>
+    <a>Shoes</a>
+    <a>Underwears</a>
+   <a>Bags</a>
+  </div>
+
+<!--navbar end-->
+
+
+<div id="contact">
+	<div class="contact-contain">
+
+<div class="contact-intro">		
+
+<div>
+	  <img src="woman.png">
+</div>	
+	<div>
+		<h2>How can we help you today?</h2>
+  <p>You can leave your comments or questions in the contact form below.</p>
+   <p>We'll respond as soon as we can.</p>
+</div>
+</div>
+
+<div class="contact">
+
+<div class="contact-details">
+	<p>Opening hours for our store: <span>Mon-Sat 11.00-18.00, Sunday 12.00-18.00</span>
+
+   
+
+    <p>CLOSED Jan 1-8</p>
+
+  
+
+<p>Location: <span>Moonlight Estate,
+Igbo etche,
+Rivers state,
+Nigeria.</span></p>
+
+<p>Call: <a href="#">+234-903-789-8466</a></p> 
+
+
+<p>Email: <a href="#">info@pudeboutique.com</a> or use our contact form.</p>
+
+<p>Not receiving a reply to your email? Check your spam!</p>
+
+<p>Our socials: 
+	<a href="#"><img src="facebook-icon.png"></a>
+	<a href="#"><img src="twitter-icon.png"></a>
+	<a href="#"><img src="instagram-icon.png"></a>
+
+</p>
+	</div>
+
+<div class="contact-form">
+      <h4>CONTACT US</h4>
+     <!-- form starting  -->
+
+   
+    <form class="form" action="submit.php" method="POST">
+
+      <p class="name">
+        <label for="name">Full Name</label><br>
+        <input type="text" name="name" id="name" required>
+      </p>
+
+      <p class="email">
+        <label for="email">Email</label><br>
+        <input type="text" name="email" id="email" required>
+      </p>
+ 
+    <p class="text">
+      <label for="message"> Message</label><br>
+      <textarea name="message" placeholder="Go ahead, we're listening..." required></textarea>
+    </p>
+
+    <p class="submit">
+      <input type="submit" value="Send Message">
+    </p>
+
+    </form>
+          <!-- end of form -->
+        
+     </div>
+
+  </div>   
+
+	</div>
+	</div>
+
+
+<!--
+.
+.
+.
+.
+.
+.
+.
+  FOOTER SECTION
+ -->
+ <footer>
+  <div class="copyright-text">
+    <p>&copy;2022 <a>PUDE's Boutique</a>. All Rights Reserved. </p>
+  </div>
+
+   <div class="madeby-text">
+    <p>Made by <a href="https://pudedesignstudio.netlify.app">Uduak Precious E.</a></p>
+  </div>
+
+
+ </footer>
+
+
+ <script>
+  //navbar
+  function openNav(){
+  document.getElementById("sidenav").style.width="50%";
+}
+function closeNav(){
+  document.getElementById("sidenav").style.width="0%";
+}
+</script>
+
+  
+
+ </body>
+ </html>
